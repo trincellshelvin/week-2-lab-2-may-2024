@@ -3,12 +3,51 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
+    <title>Gallery</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 <main>
 <body>
-  <nav>
+  <style>
+    nav {
+
+      display: block; font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif; text-align: center;
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif; text-align: center;
+    }
+
+    html {
+      background: url(https://images.pexels.com/photos/1799901/pexels-photo-1799901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;
+    }
+
+    a {
+      font-display: block; font-style: italic; color: white;
+    }
+
+    a:link, a:visited {
+  background-color: grey;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+    a:hover, a:active {
+  background-color: grey;
+}
+    body {
+      text-align: center; font-family: Arial, Helvetica, sans-serif; color: white
+    }
+  </style>
+  
+  <nav style="color: white;">
     <a href="/Pages/about.html">About</a>
     <a href="/Pages/cooking.html">Cooking</a>
     <a href="/index.html">Home</a>
@@ -17,11 +56,13 @@
 <h1>Gallery of Awesomeness</h1>
   <h2>The Family....</h2>
   <p>Welcome to my photo gallery of my life in a nutshell. The food and family...my furbabies</p>
-    <img src="https://images.pexels.com/photos/25527080/pexels-photo-25527080.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Picture of Pepper" width="200" height="300">
-    <img src="https://images.pexels.com/photos/25527084/pexels-photo-25527084.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Joe & Buddy" width="200" height="300">
-    <img src="https://images.pexels.com/photos/25527031/pexels-photo-25527031.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Trincell and Buddy" width="200" height="300">
-
-
+    <div class="flex-container">
+    <div><img src="https://images.pexels.com/photos/25527080/pexels-photo-25527080.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Picture of Pepper" width="200" height="300"></div>
+    <div><img src="https://images.pexels.com/photos/25527084/pexels-photo-25527084.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Joe & Buddy" width="200" height="300"></div>
+    <div><img src="https://images.pexels.com/photos/25527031/pexels-photo-25527031.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Trincell and Buddy" width="200" height="300"></div>
+  <h2>The Crafts...</h2>
+    <div><img src="https://images.pexels.com/photos/25863252/pexels-photo-25863252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Fall Front Dooor Wreath" width="200" height="300"></div>
+    </div>
   </body> 
 </main>
 </html>
